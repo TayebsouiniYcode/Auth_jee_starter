@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Auth_jee_starter:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Auth_jee_starter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Auth_jee_starter-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Auth_jee_starter:war exploded" />
+    </root>
+  </artifact>
+</component>
