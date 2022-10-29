@@ -10,25 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92ccfa11-8685-47d7-aa68-7103aca2ef9e" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/dao/IUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/dao/implementation/UserDAOImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/entity/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/repository/implementation/UserRepositoryImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/service/serviceImplementation/UserServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/servlet/userServlet/AuthServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/auth/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/auth/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Auth_jee_starter_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Auth_jee_starter_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/dao/implementation/UserDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/dao/implementation/UserDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/entity/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/servlet/userServlet/AuthServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/auth/auth_jee_starter/servlet/userServlet/AuthServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/auth/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/auth/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -153,7 +144,15 @@
       <workItem from="1666878697871" duration="6255000" />
       <workItem from="1666912771079" duration="162000" />
       <workItem from="1666943845644" duration="2163000" />
-      <workItem from="1666946044957" duration="577000" />
+      <workItem from="1666946044957" duration="1152000" />
+      <workItem from="1666947295674" duration="1781000" />
+      <workItem from="1666954214306" duration="382000" />
+      <workItem from="1666954632412" duration="1948000" />
+      <workItem from="1666959984839" duration="1077000" />
+      <workItem from="1666966770564" duration="1425000" />
+      <workItem from="1666968235493" duration="446000" />
+      <workItem from="1667062520418" duration="1109000" />
+      <workItem from="1667084811636" duration="1306000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1666823272493</created>

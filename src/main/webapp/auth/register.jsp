@@ -11,6 +11,14 @@
     <title>Title</title>
 </head>
 <body>
-    <h1>This is register page</h1>
+    <form method="post" name="register">
+        <input type="text" name="firstname" placeholder="firstname" id="firstname">
+        <input type="text" name="lastname" placeholder="lastname" id="lastname">
+        <input type="email" name="email" id="email" placeholder="email">
+        <input type="tel" name="phone", id="phone" placeholder="phone">
+        <input type="text" placeholder="username" name="username" required id="username">
+        <input type="password" name="password" id="password" placeholder="password">
+        <input type="submit" value="register">
+    </form>
 </body>
 </html>

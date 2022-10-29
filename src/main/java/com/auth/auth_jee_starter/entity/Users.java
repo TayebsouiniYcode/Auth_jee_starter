@@ -1,7 +1,8 @@
 package com.auth.auth_jee_starter.entity;
 
-import jakarta.persistence.*;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(schema = "public", name = "Users")
@@ -12,29 +13,39 @@ public class Users {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    //@NotNull(message = "firstname doesn't take a null value")
+    @NotNull(message = "firstname doesn't take a null value")
     @Column(name = "firstname")
     private String firstname;
 
-    //@NotNull(message = "last_name doesn't take a null value")
+    @NotNull(message = "last_name doesn't take a null value")
     @Column(name = "lastname")
     private String lastname;
 
-    //@NotNull(message = "email doesn't take a null value")
+    @NotNull(message = "email doesn't take a null value")
     @Column(name = "email")
     private String email;
 
-    //@NotNull(message = "phone doesn't take a null value")
+    @NotNull(message = "phone doesn't take a null value")
     @Column(name = "phone")
     private String phone;
 
-    //@NotNull(message = "username doesn't take a null value")
+    @NotNull(message = "username doesn't take a null value")
     @Column(name = "username")
     private String username;
 
-    //@NotNull(message = "password doesn't take a null value")
+    @NotNull(message = "password doesn't take a null value")
     @Column(name = "password")
     private String password;
+
+    public Users() {}
+    public Users ( String firstname , String lastname , String email , String phone , String username , String password ) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.email = email;
+        this.phone = phone;
+        this.username = username;
+        this.password = password;
+    }
 
     public long getId ( ) {
         return id;
