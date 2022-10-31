@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 
 @Entity
-@Table(schema = "public", name = "Users")
+@Table(name = "Users")
 public class Users {
 
     @Id
@@ -29,13 +29,25 @@ public class Users {
     @Column(name = "phone")
     private String phone;
 
+    @Column(unique = true, nullable = false)
     @NotNull(message = "username doesn't take a null value")
-    @Column(name = "username")
     private String username;
 
     @NotNull(message = "password doesn't take a null value")
     @Column(name = "password")
     private String password;
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "id_role")
+    private Role role;
+
+    public Role getRole ( ) {
+        return role;
+    }
+
+    public void setRole ( Role role ) {
+        this.role = role;
+    }
 
     public Users() {}
     public Users ( String firstname , String lastname , String email , String phone , String username , String password ) {
@@ -113,6 +125,7 @@ public class Users {
                 ", phone='" + phone + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
+                ", role=" + role +
                 '}';
     }
 }

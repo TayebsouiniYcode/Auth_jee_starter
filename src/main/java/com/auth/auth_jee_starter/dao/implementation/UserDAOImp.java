@@ -13,12 +13,8 @@ public class UserDAOImp implements IUserDAO {
      */
     @Override
     public Users add ( Users user ) {
-        System.out.println ( "1" );
-        EntityManagerFactory emf;
-        emf = Persistence.createEntityManagerFactory ( "authPersistence" );
-        System.out.println ( "2" );
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory ( "authPersistence" );
         EntityManager entityManager = emf.createEntityManager ( );
-        System.out.println ( "3" );
         entityManager.getTransaction ( ).begin ( );
         entityManager.persist ( user );
         entityManager.getTransaction ( ).commit ( );

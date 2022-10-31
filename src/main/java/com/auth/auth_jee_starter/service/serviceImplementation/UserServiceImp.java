@@ -14,7 +14,15 @@ public class UserServiceImp implements IUserService {
      */
     @Override
     public Users add ( Users user ) {
-        System.out.println ("this is service userService" );
         return userRepository.add ( user );
+    }
+
+    /**
+     * @param user
+     * @return
+     */
+    @Override
+    public Users login ( Users user ) {
+        return userRepository.login(user);
     }
 }

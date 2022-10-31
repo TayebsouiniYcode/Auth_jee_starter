@@ -12,5 +12,17 @@
 </head>
 <body>
     <h1>This is login</h1>
+    <p style="color: red">
+        <%
+            if (request.getAttribute ( "errorMessage" ) != null){
+                out.println (request.getAttribute ( "errorMessage" ));
+            }
+        %>
+    </p>
+    <form name="login" method="post">
+        <input placeholder="username" name="username" id="username" type="text">
+        <input placeholder="password" name="password" id="password" type="password">
+        <input type="submit" value="Login">
+    </form>
 </body>
 </html>
